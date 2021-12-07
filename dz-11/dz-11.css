@@ -1,0 +1,212 @@
+ body{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    align-items: center;
+}
+.child-link{
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 41px;   
+    text-transform: uppercase; 
+    display: inline-block;
+}
+.parent-child{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.href{
+    text-decoration: none;
+}
+.services-pache{
+    color: #222222;
+    margin-bottom: 100px;
+    width: 1200px;
+    height: 75px;   
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 75px;
+    text-transform: uppercase;
+display: flex;
+justify-content: center;
+
+
+}
+.wrapper-services{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.wrapper-service{
+font-family: Roboto Slab;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.35px;
+width: 304px;
+color: #777777;
+text-align: center;
+}
+
+.service-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+}
+.icon-service{
+    border: 3px solid #FED136;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: url("./Combined\ shape\ 134.png") no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    
+}
+.icon-two{
+    background: url("./Combined\ shape\ 132.png") no-repeat;
+    background-position: center;
+}
+.icon-three{
+    background: url("./Combined\ shape\ 130.png") no-repeat;
+    background-position: center;
+}
+.wrapper-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-input-button{
+    background-color: black;
+
+}
+.wrapper-contact{
+display: flex;
+justify-content: center;
+}
+.wrapper-input-one{
+    width: 480px;
+    height: 54px;
+}
+.wrapper-input-two{
+    width: 480px;
+    height: 54px;
+    margin-top: 30px;
+}
+.wrapper-input-three{
+    width: 480px;
+    height: 54px;
+    margin-top: 30px;
+}
+
+.button-size{
+    width: 242px;
+    height: 68px;
+    background: #FED136;
+    margin-top: 30px;
+}
+.contact{
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 49px;
+}
+.input-one-two-three{
+    width: 455px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+.textarea-one{
+    resize: none;
+    width: 458px;
+    height: 203px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding-left: 22px;
+    padding-top: 15px;
+}
+.wrapper-input{
+display: flex;
+justify-content: center;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    width: 242px;
+    height: 68px;
+    background: #FED136;
+    align-items: center;
+    border: none;
+}
+.column-two{
+margin-left: 30px;
+}
+.wrapper-button{
+    display: flex;
+    justify-content: center;
+}
+.textarea-one::placeholder{
+    color: #BBBBBB;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+.input-one-two-three::placeholder{
+    color: #BBBBBB;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+.wrapper-text-img{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.child-wrapper-link{
+    text-decoration: none;
+    color: #FED136;
+}
